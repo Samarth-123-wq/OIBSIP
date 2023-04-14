@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: plum;
+}
+.bg1{
+    background-color: white;
+}
+.bg2{
+    background-color: cornsilk;
+}
+.bb{
+    background-color: rgb(197, 238, 238);
+}
+.container{
+    max-width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{ 
+    width: 50%;
+}
+
+.secti{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.secti h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.log{
+    font-size: 1.3rem;
+}
+
+.right .imgg{
+    width: 466px;
+}
+
+.se{
+    padding: 90px;
+}
+
+.se h1{
+    font-size: 2.6rem;
+}
+
+.se p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 60px 0;
+    margin: 12px 22px;
+    min-width: 13vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+}
+.bx{
+    font-size: 1.3rem;
+    line-height: 2.5;
+    color: #109d10;
+    padding: 0.5rem 0;
+    display: block;
+    text-align: center;
+}
+.bxx{
+    font-size: 1rem;
+    line-height: 2;
+    color: #109d10;
+    padding: 0.5rem 0;
+    display: block;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+.cent{
+    text-align: center;
+}
+.ub{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.sect h1{
+    font-size: 2.3rem;
+}
+
+.sect{
+    padding: 63px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.minscr{
+    min-height: 100vh;
+}
+
+.mauto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.margin1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.margin2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.padd{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.blue{
+    color: rgb(227 74 56);;
+}
+
+.btn{
+    padding:9px 15px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(56, 227, 110);;
+}
+
+.overflow{
+    overflow-x: hidden;
+}
+
+.textcenter{
+    text-align: center;
+}
+.mimg{
+    width: 170px;
+    height: 140px;
+}
