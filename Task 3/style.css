@@ -1,0 +1,25 @@
+.container{
+    background-color: aqua;
+    border: none;
+    padding: 80px;
+    height: 150px;
+    width: 360px;
+    font-size: 40px;
+    text-align: center;
+}
+.body{
+    width: 110vw;
+    height: 110vh;
+    background-color: yellowgreen;
+    display: grid;
+    place-items: center;
+}
+
+#tempDifference{
+    text-align: center;
+}
+
+#sub{
+    text-align: center;
+    background-color: royalblue;
+}
